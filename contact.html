@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Maple Mug Cafe</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <nav class="navbar md:navbar-expand bg-1 fg-2">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Maple Mug Cafe</a>
+      <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" aria-hidden="true"></span>
+      </button>
+      <dialog class="drawer drawer-end" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel">
+        <div class="drawer-header">
+          <div class="drawer-title" id="navbarNavLabel">Menu</div>
+          <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+        </div>
+        <div class="drawer-body">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Our Menu</a></li>
+            <li class="nav-item"><a class="nav-link active" href="contact.html" aria-current="page">Contact</a></li>
+          </ul>
+        </div>
+      </dialog>
+    </div>
+  </nav>
+  <main>
+    <div class="container mt-3">
+      <h1 class="my-5">Contact Maple Mug Cafe</h1>
+      <form style="max-width: 900px" class="mx-auto">
+        <div class="row g-4">
+          <div class="col-12 md:col-6">
+            <div class="form-field">
+              <label for="firstName" class="form-label">First name</label>
+              <input type="text" class="form-control" id="firstName">
+            </div>
+          </div>
+          <div class="col-12 md:col-6">
+            <div class="form-field">
+              <label for="lastName" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="lastName">
+            </div>
+          </div>
+          <div class="col-12 md:col-6">
+            <div class="form-field">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            </div>
+          </div>
+          <div class="col-12 md:col-6">
+            <div class="form-field">
+              <label for="topic" class="form-label">What can we help with?</label>
+              <select class="form-control" id="topic">
+                <option value="catering">Catering for an event</option>
+                <option value="menu">Feedback on our menu</option>
+                <option value="team">Joining our student team</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="form-field">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5"></textarea>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="form-field">
+              <input type="checkbox" id="consent" class="check">
+              <label for="consent">I agree to be contacted</label>
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="btn-solid theme-primary mt-5">Send Message</button>
+      </form>
+    </div>
+  </main>
+  <footer class="bg-primary fg-contrast-primary text-center py-4 mt-5">
+    <p class="mb-0">&copy; 2026 Maple Mug Cafe. A student-run cafe serving coffee, tea and fresh bakes.</p>
+    <p class="mb-0">Photos from <a class="fg-contrast-primary" href="https://unsplash.com">Unsplash</a>.</p>
+  </footer>
+</body>
+</html>
