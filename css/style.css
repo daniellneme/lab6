@@ -1,0 +1,14 @@
+:root {
+  --bs-primary-bg: saddlebrown;
+  --bs-primary-fg: saddlebrown;
+  --bs-primary-fg-emphasis: sienna;
+  --bs-primary-border: saddlebrown;
+  --bs-primary-focus-ring: peru;
+  --bs-primary-contrast: white;
+}
+
+.btn-solid.theme-primary {
+  --bs-theme-bg: saddlebrown;
+  --bs-theme-border: saddlebrown;
+  --bs-theme-contrast: white;
+}
